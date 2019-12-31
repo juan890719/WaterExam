@@ -40,6 +40,7 @@ public class MainActivity extends AppCompatActivity {
     private static final String TAG = MainActivity.class.getSimpleName();
     private EditText edMonthly;
     boolean isNext = false;
+    String name;
     private Spinner cities;
     private Spinner areas;
     private ArrayList<String> data;
